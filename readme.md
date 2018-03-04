@@ -1,0 +1,2 @@
+# DengueLytics 
+DengueLytics is an application that keeps track of Patients with Dengue. It serves as a first-hand diagnosis tool for detecting diseases through PriAid API, a data aggregation tool, including weather, geolocation etc. This project is temporarily discontiued
