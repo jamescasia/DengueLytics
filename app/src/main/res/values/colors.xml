@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="prompts">#2684ff</color>
+    <color name="whitemilk">#fffbfc</color>
+    <color name="gray">#dadada</color>
+    <color name="ltgray">#eaeaea</color>
+    <color name="darkgray">#545454</color>
+
+    <color name="red">#ff0000</color>
+
+    <color name="notificationbg">#def9ff</color>
+
+    <color name="loginblue">#d5ebff</color>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#454545</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#E1E2E1</color>
+    <color name="fadecolor">#E1E2E1</color>
+    <color name="plight">#4f5b62</color>
+    <color name="pDark">#000a12</color>
+    <color name="colorSecondary">#d84315</color>
+    <color name="sLight">#ff7543</color>
+    <color name="sDark">#9f0000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

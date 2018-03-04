@@ -1,0 +1,61 @@
+[debug] [2017-12-26T13:35:33.985Z] ----------------------------------------------------------------------
+[debug] [2017-12-26T13:35:33.988Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\James Casia\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only functions
+[debug] [2017-12-26T13:35:33.988Z] CLI Version:   3.16.0
+[debug] [2017-12-26T13:35:33.988Z] Platform:      win32
+[debug] [2017-12-26T13:35:33.988Z] Node Version:  v8.9.3
+[debug] [2017-12-26T13:35:33.989Z] Time:          Tue Dec 26 2017 21:35:33 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-12-26T13:35:33.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-26T13:35:34.000Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-26T13:35:34.000Z] > authorizing via signed-in user
+[debug] [2017-12-26T13:35:34.002Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-66bba  
+  
+ Tue Dec 26 2017 21:35:34 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-12-26T13:35:35.340Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-26T13:35:35.341Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-66bba/tokens  
+  
+ Tue Dec 26 2017 21:35:35 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-12-26T13:35:36.311Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'fir-66bba'...
+[info] 
+[info] i  deploying functions
+[debug] [2017-12-26T13:35:37.591Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~5.4.2",
+    "firebase-functions": "^0.7.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2017-12-26T13:35:37.593Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/fir-66bba?view=CONSUMER_VIEW  
+  
+ Tue Dec 26 2017 21:35:37 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-12-26T13:35:37.593Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/fir-66bba?view=CONSUMER_VIEW  
+  
+ Tue Dec 26 2017 21:35:37 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-12-26T13:35:39.321Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-26T13:35:39.395Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2017-12-26T13:35:39.397Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/fir-66bba  
+  
+ Tue Dec 26 2017 21:35:39 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-12-26T13:35:39.398Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/fir-66bba/apiKeys  
+  
+ Tue Dec 26 2017 21:35:39 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-12-26T13:35:40.015Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-26T13:35:40.916Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2017-12-26T13:36:47.335Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/fir-66bba/configs  
+  
+ Tue Dec 26 2017 21:36:47 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-12-26T13:36:48.076Z] <<< HTTP RESPONSE 200

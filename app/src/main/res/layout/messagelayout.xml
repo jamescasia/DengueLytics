@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/meesagelayout">
+    <LinearLayout
+
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/chatter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="dfafaf"/>
+        <TextView
+            android:layout_marginStart="15dp"
+
+            android:gravity="right"
+
+            android:id="@+id/time"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="9:18 AM"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/chatmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Havana, ooh na-na (ay)
+        Half of my heart is in Havana, ooh-na-na (ay, ay)
+        He took me back to East Atlanta, na-na-na
+        All of my heart is in Havana (ay)
+        There's somethin' 'bout his manners (uh huh)
+        Havana, ooh na-na (uh)"
+        /></LinearLayout>
+
+
+
+
+</LinearLayout>
